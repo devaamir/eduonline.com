@@ -1,0 +1,1515 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+input,textarea,select{
+	font-weight: 500;
+}
+a{
+	color: #000;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+header {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div.left {
+    margin-right: 20%;
+}
+header div.left h1 {
+    width: 200px;
+}
+header div.left h1 a {
+    display: inline-block;
+    width: 100%;
+}
+header div.left h1 a img {
+    display: inline-block;
+    width: 100%;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li {
+    margin-right: 50px;
+    font-size: 16px;
+}
+header ul li:last-child {
+    margin-right: 0;
+}
+header ul li a {
+    display: flex;
+    align-items: center;
+    
+}
+header ul li a img {
+    margin-left: 5px;
+    
+}
+header ul li a.button{
+    padding: 16px 24px;
+    background: linear-gradient(to right,#0092EA, #00ECFC);
+    border-radius: 40px;
+    color: #fff;
+    margin-left: 30px;
+}
+#spotlight {
+    padding: 130px 0;
+    background: url("../images/image1.svg") no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: auto;
+    background-position: 1000px 96px;
+}
+#spotlight div.content {
+    
+}
+#spotlight div.content small {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    opacity: .5;
+    font-weight: 500;
+}
+#spotlight div.content small hr.line {
+    border-bottom: 2px solid #0092EA;
+    width: 60px;
+    margin-right: 10px;
+}
+#spotlight div.content h1 {
+    max-width: 500px;
+    font-size: 52px;
+    font-weight: 900;
+    color: #1B1660;
+    padding:10px 0 40px;
+}
+#spotlight div.content p {
+    max-width: 500px;
+    font-size: 14px;
+    opacity: .5;
+    padding-bottom: 50px;
+    line-height: 1.8em;
+}
+#spotlight div.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 500px;
+}
+#spotlight div.content ul li {
+    margin-right: 50px;
+}
+#spotlight div.content ul li:last-child {
+    margin-right: 0;
+}
+#spotlight div.content ul li a {
+    display: block;
+    padding: 16px 24px;
+    border:1px solid #35AAF9;
+    border-radius: 40px;
+    color: #35AAF9;
+    font-size: 16px;
+}
+#spotlight div.content ul li a.button {
+    background: linear-gradient(to right,#0092EA, #00ECFC);
+    border-radius: 40px;
+    color: #fff;
+    border:none
+}
+#main {
+    padding: 100px 0;
+}
+#main section.content {
+    display: block;
+}
+#main section.content div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+#main section.content div.top div.left {
+    width: 40%;
+}
+#main section.content div.top div.left h2 {
+    color: #1B1660;
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 454px;
+    padding-bottom: 30px;
+}
+#main section.content div.top div.left p {
+    max-width: 294px;
+    font-size: 14px;
+    opacity: .5;
+    padding-bottom: 50px;
+    line-height: 1.8em;
+}
+#main section.content div.top div.left a.button {
+    padding: 16px 24px;
+    background: linear-gradient(to right,#0092EA, #00ECFC);
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+}
+#main section.content div.top div.right {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+#main section.content div.top div.right  div.item {
+    padding: 50px 20px;
+    border: .5px solid #0092EA;
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+}
+#main section.content div.top div.right  div.item:last-child {
+    margin-right: 0;
+}
+#main section.content div.top div.right  div.item span.icon {
+    background: #0092EA;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto
+}
+#main section.content div.top div.right  div.item span.icon img {
+    display: inline;
+}
+#main section.content div.top div.right  div.item h4 {
+    font-size: 20px;
+    padding: 30px 0;
+    font-weight: 500;
+}
+#main section.content div.top div.right  div.item p {
+    display: inline-block;
+    font-size: 13px;
+    opacity: .5;
+}
+#main section.content div.bottom {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#main section.content div.bottom div.left {
+    position: relative;
+    width: 45%;
+}
+#main section.content div.bottom div.left img {
+    position: absolute;
+    top: 0;
+    left: -67px;
+    width: 100%;
+}
+#main section.content div.bottom div.right {
+    width: 45%;
+} 
+#main section.content div.bottom div.right small {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    opacity: .5;
+    font-weight: 500;
+} 
+#main section.content div.bottom div.right small hr.line {
+    border-bottom: 2px solid #0092EA;
+    width: 60px;
+    margin-right: 10px;
+} 
+#main section.content div.bottom div.right h2 {
+    color: #1B1660;
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 454px;
+    padding:10px 0 30px;
+}
+#main section.content div.bottom div.right p {
+    max-width: 454px;
+    font-size: 14px;
+    opacity: .5;
+    padding-bottom: 50px;
+    line-height: 1.8em;
+}
+#main section.content div.bottom div.right a.button {
+    padding: 16px 24px;
+    background: linear-gradient(to right,#0092EA, #00ECFC);
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+}
+#details {
+    padding: 100px 0;
+    background: linear-gradient(to right,#0092EA, #00ECFC);
+}
+#details div.content {
+    display: flex;
+    justify-content: space-around;
+
+}
+#details div.content  div.items {
+    text-align: center;
+    color: #fff;
+}
+#details div.content  div.items h2 {
+    font-size: 52px;
+    font-weight: 900;
+}
+#details div.content  div.items hr.line {
+    width: 70px;
+    height: 2px;
+    background: #ffffff;
+    margin: 10px auto;
+
+}
+#details div.content  div.items p {
+    font-size: 24px;
+    color: #fff;
+}
+#features {
+
+}
+#features div.top {
+    padding: 100px 0;
+}
+#features div.top small.s-heading {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: baseline;
+    margin: 0 auto;
+    font-size: 14px;
+    opacity: .5;
+}
+#features div.top small.s-heading hr.line {
+    width: 60px;
+    margin-right: 20px;
+    height: 2px;
+    background: #0092EA;
+
+}
+#features div.top h2 {
+    color: #1B1660;
+    font-size: 42px;
+    font-weight: bold;
+    padding:10px 0 100px;
+    text-align: center;
+}
+#features div.top div.content {
+    display: flex;
+    justify-content: space-between;
+}
+#features div.top div.content div.cards {
+    border: 1px solid #0092EA;
+    width: 31%;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+}
+#features div.top div.content div.cards img {
+    width: 100%;
+}
+#features div.top div.content div.cards div.c-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+#features div.top div.content div.cards div.c-top p {
+    padding: 9px 18px;
+    background: #35AAF9;
+    color: #fff;
+}
+#features div.top div.content div.cards div.c-top h4 {
+    font-size: 20px;
+    font-weight: bold;  
+    color: #4089BC;
+}
+#features div.top div.content div.cards h3 {
+    margin: 30px;
+    font-weight: bold;
+    color: #4089BC;
+    font-size: 24px;
+}
+#features div.top div.content div.cards p.card-p {
+    font-size: 16px;
+    opacity: .5;
+    margin: 30px;
+    border-bottom: .5px solid rgba(0 , 0, 0, 0.4);
+    padding-bottom: 30px;
+}
+#features div.top div.content div.cards div.c-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile span {
+    /* margin-right: 20px; */
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile span img {
+    width: 50px;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.name {
+    margin-right: 35px;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.name h6 {
+    font-size: 15px;
+    line-height: 1.9em;
+    opacity: 0.5;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.name h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #247AB3;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.rating {
+
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.rating  ul {
+    display: flex;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li {
+    margin-right: 8px;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li img {
+    width: 14px;
+    height: 14px;
+}
+#features div.top div.content div.cards div.c-bottom div.c-profile div.rating h6 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.9em;
+    opacity: 0.5;
+}
+#features div.bottom {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#features div.bottom div.left {
+    width: 48%;
+}
+#features div.bottom div.left small {
+    display: flex;
+    /* justify-content: center; */
+    text-transform: uppercase;
+    align-items: baseline;
+    margin: 0 auto;
+    font-size: 13px;
+    opacity: .5;
+}
+#features div.bottom div.left small hr.line {
+    width: 60px;
+    margin-right: 20px;
+    height: 2px;
+    background: #0092EA;
+}
+#features div.bottom div.left h2 {
+    color: #1B1660;
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 454px;
+    padding:10px 0 30px;
+}
+#features div.bottom div.left p {
+    max-width: 548px;
+    font-size: 13px;
+    opacity: .5;
+    padding-bottom: 50px;
+    line-height: 1.8em;
+}
+#features div.bottom div.left div.s-features {
+    display: flex;
+    justify-content: space-between;
+}
+#features div.bottom div.left div.s-features div.items {
+    width: 48%;
+}
+#features div.bottom div.left div.s-features div.items span {
+    background: #0092EA;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+#features div.bottom div.left div.s-features div.items span img {
+    display: inline;
+}
+#features div.bottom div.left div.s-features div.items h3 {
+    padding: 30px 0;
+    color: #0092EA;
+    font-size: 20px;
+    font-weight: 500;
+}
+#features div.bottom div.left div.s-features div.items p {
+    font-size: 15px;
+    opacity: .5;
+}
+#features div.bottom div.right {
+    width: 48;
+}
+#features div.bottom div.right img {
+    
+}
+#testimonial {
+    padding: 100px 0;
+}
+#testimonial small {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: baseline;
+    margin: 0 auto;
+    font-size: 14px;
+    opacity: .5;
+}
+#testimonial small hr.line {
+    width: 60px;
+    margin-right: 20px;
+    height: 2px;
+    background: #0092EA;
+}
+#testimonial h2 {
+    color: #1B1660;
+    font-size: 42px;
+    font-weight: bold;
+    padding:10px 0 100px;
+    text-align: center;
+}
+#testimonial div.slide {
+    display: flex;
+    flex-direction: row;
+}
+#testimonial div.slide div.person {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row;
+}
+#testimonial div.slide div.person div.image {
+    width: 750px;
+    height: 320px;
+}
+#testimonial div.slide div.person div.image img.hero {
+   width: 100%;
+   height: 100%;
+}
+#testimonial div.slide div.person div.message {
+    margin: 30px;
+    padding: 50px;
+    box-shadow: 0 0 10px 0 rgba(32 , 121, 178, 0.4);
+    position: relative;
+}
+#testimonial div.slide div.person div.message p {
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.5;
+    line-height: 1.9em;
+}
+#testimonial div.slide div.person div.message h3 {
+    padding-top: 20px;
+    color: #2079B2;
+    font-weight: bold;
+}
+#testimonial div.slide div.person div.message img {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: -1;
+}
+ul.slick-dots li button:before {
+    font-size: 45px;
+    top: 85px;
+}
+ul.slick-dots li.slick-active button::before {
+    color: #0092EA;
+    text-decoration: none;
+}
+ul.slick-dots li button:hover:before
+{
+    opacity: .25;
+}
+ul.slick-dots li.slick-active button:hover:before {
+    opacity: 1;
+}
+#blog {
+    padding: 100px 0;
+}
+#blog small.s-heading {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: baseline;
+    margin: 0 auto;
+    font-size: 14px;
+    opacity: .5;
+}
+#blog small.s-heading hr.line {
+    width: 60px;
+    margin-right: 20px;
+    height: 2px;
+    background: #0092EA
+}
+#blog h2 {
+    color: #1B1660;
+    font-size: 42px;
+    font-weight: bold;
+    padding:10px 0 100px;
+    text-align: center;
+}
+#blog div.content {
+    display: flex;
+    justify-content: space-between;
+}
+#blog div.content div.cards {
+    border: 1px solid #0092EA;
+    width: 31%;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+}
+#blog div.content div.cards img.main {
+    width: 100%;
+}
+#blog div.content div.cards h4 {
+    padding: 9px 18px;
+    background: #35AAF9;
+    color: #fff;
+    margin: 30px 30px 0;
+    display: inline-block;
+}
+#blog div.content div.cards h3 {
+    margin: 30px;
+    font-weight: 500;
+    color: #4089BC;
+    font-size: 16px;
+}
+#blog div.content div.cards p {
+    font-size: 16px;
+    opacity: .5;
+    margin: 30px;
+    border-bottom: .5px solid rgba(0 , 0, 0, 0.4);
+    padding-bottom: 30px;
+}
+#blog div.content div.cards div.c-bottom {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+
+}
+#blog div.content div.cards div.c-bottom span.items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    color: #A3A3A3;
+    margin-right: 70px;
+}
+#blog div.content div.cards div.c-bottom span.items:last-child {
+    margin-right: 0;
+}
+#blog div.content div.cards div.c-bottom span.items img {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+footer {
+
+}
+footer div.top {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer div.top div.items {
+    width: 30%;
+}
+footer div.top div.items:last-child {
+    margin-left: 60px;
+}
+footer div.top div.items h1 {
+    width: 200px;
+}
+footer div.top div.items h1 a {
+    display: inline-block;
+    width: 100%;
+}
+footer div.top div.items h1 a img {
+    display: inline-block;
+    width: 100%;
+}
+footer div.top div.items p.first {
+    font-size: 14px;
+    max-width: 250px;
+    line-height: 1.8em;
+    padding-top: 14px;
+    opacity: 0.5;
+}
+footer div.top div.items h3 {
+    color: #1B1660;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .8px;
+}
+footer div.top div.items p.second {
+    font-size: 14px;
+    line-height: 1.8em;
+    padding-top: 14px;
+    opacity: 0.5;
+}
+footer div.top div.items form {
+    border: 1px solid #0092EA;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+footer div.top div.items form input[type=email] {
+    margin-left: 20px;
+}
+footer div.top div.items form button {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(to right,#0092EA, #00ECFC);
+    border-radius: 5px;
+}
+footer div.top div.items form button img {
+
+}
+footer div.top div.items ul.social {
+    display: flex;
+    margin-top: 20px;
+}
+footer div.top div.items ul.social li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #939393;
+    width: 13px;
+    height: 13px;
+    margin-right: 20px;
+}
+footer div.top div.items ul.social li a {
+    
+}
+footer div.top div.items ul.social li a img {
+
+}
+footer div.top div.items ul.cont {
+    margin-top: 20px;
+}
+footer div.top div.items ul.cont li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+footer div.top div.items ul.cont li h6 {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #0091EA;
+    font-weight: 500;
+}
+footer div.top div.items ul.cont li small {
+    font-size: 14px;
+    line-height: 1.9em;
+    max-width: 300px;
+    color: #939393;
+}
+footer div.top div.items ul.cont li small span {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #0091EA;
+    font-weight: 500;
+}
+footer hr.line {
+    width: 100%;
+    background: #ebe4e4;
+    height: 1px;
+}
+footer div.bottom {
+    padding: 30px 0;
+    text-align: center;
+    color: #939393;
+    font-size: 16px;
+}
+
+
+
+
+/* Responsive Css Codes */
+
+@media all and (max-width: 1600px) {
+    #spotlight {
+        background-position: 865px 96px;
+    }
+        #testimonial div.slide div.person div.message {
+            padding: 28px;
+    }
+}
+@media all and (max-width: 1465px) {
+    #spotlight {
+        background-position: 775px 96px;
+    }
+}
+@media all and (max-width: 1375px) {
+    #spotlight {
+        background-position: 700px 96px;
+    }
+}
+@media all and (max-width: 1326px) {
+    /* #spotlight {
+        background-position: 700px 96px;
+    } */
+    header ul li a.button {
+        margin-left: 0px;
+    }
+}
+@media all and (max-width: 1312px) {
+    #spotlight {
+        background-position: 700px 96px;
+    }
+}
+@media all and (max-width: 1312px) {
+    #spotlight {
+        background-position: 700px 96px;
+    }
+}
+@media all and (max-width: 1312px) {
+    #spotlight {
+        background-position: 700px 96px;
+    }
+}
+@media all and (max-width: 1300px) {
+    header ul li {
+        margin-right: 35px;
+    }
+    #spotlight {
+        background-position: 580px 96px;
+    }
+    #main section.content div.top div.right div.item h4 {
+        font-size: 18px;
+    }
+    #main section.content div.bottom div.left img {
+        left: -35px;
+    }
+    #main section.content div.top div.right div.item p {
+        font-size: 12px;
+    }
+    #features div.top div.content div.cards h3 {
+        font-size: 23px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li img {
+        width: 10px;
+        height: 10px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating h6 {
+        font-size: 11px;
+    }
+    #features div.top div.content div.cards p.card-p {
+        font-size: 15px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h6 {
+        font-size: 12px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h5 {
+        font-size: 13px;
+    }
+    #testimonial div.slide div.person div.message {
+        padding: 30px;
+        margin: 20px;
+    }
+    #testimonial div.slide div.person div.message p {
+        font-size: 12px;
+        line-height: 1.6em;
+    }
+    #testimonial div.slide div.person div.message h3 {
+        padding-top: 13px;
+        color: #2079B2;
+        font-size: 16px;
+    }
+    #testimonial div.slide div.person div.message img {
+        bottom: 17px;
+        right: 17px;
+        width: 28%;
+    }
+    #testimonial div.slide div.person div.image {
+        height: 250px;
+    }
+}
+@media all and (max-width: 1200px) {
+    header div.left h1 {
+        width: 150px;
+    }
+    header ul li {
+        margin-right: 30px;
+    }
+    header ul li a {
+        font-size: 12px;
+    }
+    #spotlight {
+        background-position: 100% 96px;
+        background-size: 526px;
+        padding-bottom: 65px;
+        height: 525px;
+    }
+    #spotlight div.content p {
+        max-width: 460px;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+    #spotlight div.content ul li a {
+        padding: 14px 22px;
+        font-size: 12px;
+    }
+    #spotlight div.content ul li {
+        margin-right: 35px;
+    }
+    #main {
+        padding-top: 0;
+    }
+    #main section.content div.top div.left a.button {
+        padding: 14px 22px;
+        font-size: 12px;
+    }
+    #spotlight div.content h1 {
+        font-size: 48px;
+    }
+    #main section.content div.top {
+        flex-direction: column;
+    }
+    #main section.content div.top div.left {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    #main section.content div.top div.left h2 {
+        margin: 0 auto;
+    }
+    #main section.content div.top div.left p {
+        max-width: 430px;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+    #main section.content div.top div.right {
+        width: 100%;
+    }
+    #main section.content div.bottom div.right a.button {
+        padding: 14px 22px;
+        font-size: 12px;
+    }
+    #features div.top div.content div.cards div.c-top p {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    #features div.top div.content div.cards div.c-top h4 {
+        font-size: 15px;
+    }
+    #features div.top div.content div.cards h3 {
+    font-size: 18px;
+    }
+    #features div.top div.content div.cards div.c-bottom {
+        margin: 25px;
+    }
+    #features div.top div.content div.cards div.c-top {
+        margin: 25px;
+    }
+    #features div.top div.content div.cards h3 {
+        margin: 25px;
+    }
+    #features div.top div.content div.cards p.card {
+        margin: 25px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile span img {
+        width: 45px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li img {
+        width: 8px;
+        height: 8px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h6 {
+        font-size: 10px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h5 {
+        font-size: 10px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating h6 {
+        font-size: 10px;
+    }
+    #blog div.content div.cards div.c-bottom span.items {
+        font-size: 12px;
+        margin-right: 30px;
+    }
+}
+@media all and (max-width: 1024px) {
+    #spotlight {
+        background: none;
+        height: 480px;
+    }
+    #spotlight div.content small {
+        justify-content: center;
+    }
+    #spotlight div.content h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    #spotlight div.content p {
+        max-width: 560px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #spotlight div.content ul {
+        max-width: 100%;
+        justify-content: center;
+    }
+    #main section.content div.top {
+        padding-top: 25px;
+    }
+    #main section.content div.top div.left h2 {
+        max-width: 100%;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li {
+        margin-right: 5px;
+    }
+    #features div.top div.content div.cards p.card-p {
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 980px) {
+    header ul li:first-child {
+        display: none;
+    }
+    header ul li:nth-child(2) {
+        display: none;
+    }
+    header ul li:nth-child(3) {
+        display: none;
+    }
+    header ul li:nth-child(4) {
+        display: none;
+    }
+    header ul li:nth-child(5) {
+        display: none;
+    }
+    header ul li:nth-child(6) {
+        display: none;
+    }
+    #main section.content div.bottom div.left {
+        display: none;
+    }
+    #main section.content div.bottom div.right {
+        width: 100%;
+        text-align: center;
+    }
+    #main section.content div.bottom div.right small {
+        justify-content: center;
+    }
+    #main section.content div.bottom div.right h2 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    #main section.content div.bottom div.right p {
+        max-width: 560px;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+    #main section.content div.top {
+        padding-bottom: 20px;
+    }
+    #main {
+        padding-bottom: 0;
+    }
+    #details {
+        padding: 65px 0;
+    }
+    #details div.content div.items p {
+        font-size: 20px;
+    }
+    #details div.content div.items h2 {
+        font-size: 35px;
+    }
+    #features div.top div.content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #features div.top div.content div.cards {
+        width: 43%;
+        margin: 20px;
+    }
+    #features div.top {
+        padding-bottom: 0;
+    }
+    #features div.bottom div.right {
+        display: none;
+    }
+    #features div.bottom div.left {
+        width: 100%;
+        text-align: center;
+    }
+    #features div.bottom div.left small {
+        justify-content: center;
+    }
+    #features div.bottom div.left h2 {
+        max-width: 100%;
+    }
+    #features div.bottom div.left p {
+        margin: 0 auto;
+    }
+    #features div.bottom div.left div.s-features div.items {
+        text-align: center;
+    }
+    #features div.bottom div.left div.s-features div.items span {
+        margin: 0 auto;
+    }
+    #features div.bottom {
+        padding-bottom: 0;
+    }
+    #testimonial div.slide div.person div.message {
+        padding: 10px;
+        margin: 0 0 20px;
+        height: 100% !important;
+    }
+    #testimonial div.slide div.person div.image {
+        height: 100%;
+        width: 100%;
+    }
+    #testimonial div.slide div.person div.message img {
+        width: 20%;
+    }
+    #testimonial div.slide div.person {
+        display: inline-block !important;
+        width: 90% !important;
+        height: 100% !important;
+    }
+    ul.slick-dots li button:before {
+        font-size: 40px;
+        top: 55px;
+    }
+    #blog {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    #blog div.content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #blog div.content div.cards {
+        border: 1px solid #0092EA;
+        width: 45%;
+        border-radius: 16px 16px 0 0;
+        overflow: hidden;
+        margin: 15px;
+    }
+    #blog div.content div.cards:last-child {
+        margin: 15px 0;
+    }
+    footer div.top {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    footer div.top div.items {
+        width: 70%;
+        margin: 20px;
+    }
+    footer div.top div.items:last-child {
+        margin-left: 20px;
+    }
+    footer div.top div.items p.first {
+        max-width: 500px;
+    }
+}
+@media all and (max-width: 768px) {
+    #main section.content div.top div.right {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #main section.content div.top div.right div.item {
+        width: 43%;
+        margin: 20px;
+    }
+    #main section.content div.top div.right div.item:last-child {
+        margin: 20px 0 0;
+    }
+    #main section.content div.bottom {
+        padding: 75px 0;
+    }
+    #blog div.content div.cards {
+        width: 43%;
+    }
+    #blog div.content div.cards div.c-bottom {
+        margin: 20px;
+    }
+    footer div.top div.items ul.social li {
+        width: 17px;
+        height: 17px;
+    }
+    footer div.top div.items {
+        width: 80%;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li {
+        margin-right: 2px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile span img {
+        width: 40px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h6 {
+        font-size: 9px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h5 {
+        font-size: 9px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating h6 {
+        font-size: 8px;
+    }
+}
+@media all and (max-width: 640px) {
+    #spotlight div.content small {
+        font-size: 11px;
+    }
+    #spotlight div.content small hr.line {
+        width: 45px;
+    }
+    #spotlight div.content h1 {
+        font-size: 35px;
+    }
+    #main section.content div.top div.left h2 {
+        font-size: 25px;
+    }
+    #main section.content div.top div.right div.item:last-child {
+        margin: 20px 0;
+    }
+    #main section.content div.top div.right div.item {
+        margin: 15px;
+    }
+    #main section.content div.bottom div.right h2 {
+        font-size: 25px;
+    }
+    #main section.content div.bottom div.right small {
+        font-size: 11px;
+    }
+    #main section.content div.bottom div.right small hr.line {
+        width: 45px;
+    }
+    #main section.content div.top div.left p {
+        font-size: 13px;
+    }
+    #main section.content div.bottom div.right p {
+        font-size: 13px;
+    }
+    #details div.content {
+        flex-wrap: wrap;
+    }
+    #details div.content div.items {
+        width: 50%;
+        padding-bottom: 35px;
+    }
+    #details div.content div.items:last-child {
+        padding-bottom: 0;
+    }
+    #details div.content div.items:nth-last-child(2) {
+        padding-bottom: 0;
+    }
+    #details div.content div.items h2 {
+        font-size: 30px;
+    }
+    #details div.content div.items p {
+        font-size: 15px;
+    }
+    #details div.content div.items hr.line {
+        width: 65px;
+    }
+    #features div.top small.s-heading {
+        font-size: 11px;
+    }
+    #features div.top small.s-heading hr.line {
+        width: 45px;
+    }
+    #features div.top h2 {
+        font-size: 25px;
+    }
+    #features div.top div.content div.cards {
+        width: 70%;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li img {
+        width: 10px;
+        height: 10px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li {
+        margin-right: 8px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h5 {
+        font-size: 11px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name h6 {
+        font-size: 11px;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.rating h6 {
+        font-size: 11px;
+    }
+    #features div.top div.content div.cards p.card-p {
+        margin: 25px;
+    }
+    #features div.bottom div.left small {
+        font-size: 11px;
+    }
+    #features div.bottom div.left small hr.line {
+        width: 45px;
+    }
+    #features div.bottom div.left h2 {
+        font-size: 25px;
+    }
+    #features div.bottom div.left div.s-features div.items h3 {
+        padding: 20px 0;
+    }
+    #features div.bottom div.left div.s-features div.items p {
+        font-size: 12px;
+    }
+    #testimonial {
+        padding: 35px 0 50px;;
+    }
+    #testimonial small {
+        font-size: 11px;
+    }
+    #testimonial small hr.line {
+        width: 45px;
+    }
+    #testimonial h2 {
+        font-size: 25px;
+    }
+    #testimonial div.slide div.person div.message p {
+        font-size: 10px;
+    }
+    ul.slick-dots li button:before {
+        font-size: 35px;
+        top: 35px;
+    }
+    #blog small.s-heading {
+        font-size: 11px;
+    }
+    #blog small.s-heading hr.line {
+        width: 45px;
+    }
+    #blog h2 {
+        font-size: 25px;
+        padding: 10px 0 60px;
+    }
+    #blog div.content div.cards {
+        width: 70%;
+    }
+    #blog div.content div.cards p {
+        font-size: 11px;
+    }
+    footer div.top div.items h1 {
+        width: 150px;
+    }
+    footer div.top div.items p.first {
+        font-size: 11px;
+    }
+    footer div.top div.items h3 {
+        font-size: 20px;
+    }
+    footer div.top div.items p.second {
+        font-size: 11px;
+    }
+    footer div.top div.items form input[type=email] {
+        font-size: 11px;
+    }
+    footer div.top div.items ul.cont li h6 {
+        font-size: 13px;
+    }
+    footer div.top div.items ul.cont li small {
+        font-size: 11px;
+    }
+    footer div.top div.items ul.cont li small span {
+        font-size: 13px;
+    }
+    footer div.bottom {
+        font-size: 8px;
+    }
+}
+@media all and (max-width: 480px) {
+        header ul {
+            display: none;
+        }
+        header div.left {
+            margin-right: 0;
+        }
+        header section.wrapper {
+            justify-content: center;
+        }
+        #spotlight {
+            padding: 70px 0;
+        }
+        #main section.content div.top div.right div.item {
+            width: 100%;
+        }
+        #main section.content div.top div.right div.item:last-child {
+            margin: 15px;
+        }
+        #features div.top div.content div.cards {
+            width: 100%;
+        }
+        #features div.top div.content div.cards div.c-bottom div.c-profile div.rating ul li {
+            margin-right: 6px;
+        }
+        #blog div.content div.cards {
+            width: 100%;
+        }
+        #blog div.content div.cards:last-child {
+            margin: 15px;
+        }
+        footer div.top div.items form button {
+            padding: 15px;
+            width: 4px;
+            height: 4px;
+        }
+}
+@media all and (max-width: 360px) {
+    #spotlight div.content h1 {
+        font-size: 30px;
+    }
+    #main section.content div.top div.left h2 {
+        font-size: 22px;
+    }
+    #main section.content div.bottom div.right h2 {
+        font-size: 22px;
+    }
+    #details div.content div.items {
+        width: 100%;
+        display: flex;
+        padding-bottom: 35px !important;
+    }
+    #details div.content div.items:last-child {
+            padding-bottom: 0 !important;
+    }
+    #details div.content {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    #details div.content div.items h2 {
+        padding-right: 30px;
+        border-right: 2px solid #fff;
+        margin-right: 20px;
+    }
+    #details div.content div.items hr.line {
+        display: none;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile {
+        flex-direction: column;
+    }
+    #features div.top div.content div.cards div.c-bottom div.c-profile div.name {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
